@@ -16,4 +16,15 @@ docker-compose up
 
 Application is available at http://symfony.dev !
 
-To rebuild : docker-compose build
+Configurations files are under :
+
+apache-php/apache :
+   - apache2.conf
+   - symfony.conf -> vhost
+
+apache-php/php :
+  - php.ini
+
+To rebuild :
+
+ - docker-compose build
